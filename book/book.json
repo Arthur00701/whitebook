@@ -1,0 +1,32 @@
+{
+  "title": "WhitePaper",
+  "description": "WhitePaper",
+  "isbn": "XXXX-XXX-XXXX-X-XXX",
+  "author": "Arthur",
+  "language": "en", 
+  "direction": "rtl",     
+  "gitbook": ">= 3.0.0",
+  "links": {
+    "gitbook": true,
+    "sharing": {
+      "google": true,
+      "facebook": true,
+      "twitter": true,
+      "all": true
+    }
+  },
+  "plugin":[
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "-lunr", 
+    "-search", 
+    "search-pro"
+  ],
+  "pluginsConfig":{
+    "tbfed-pagefooter": {
+      "copyright":"Copyright &copy 2021",
+      "modify_label": "文件修订时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+  }
+  }
+}
